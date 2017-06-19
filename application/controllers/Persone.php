@@ -9,6 +9,6 @@ class Persone extends CI_Controller {
 			redirect('login');
 		}
 		$data['active']="persone";
-		$this->common->fullView("persone/nuova","Persone","Inserimento nuova persona",false,$data);
+		$this->common->fullView("persone/nuova","Persone","Inserimento record",false,$data);
 	}
 }
